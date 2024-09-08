@@ -49,17 +49,23 @@ source env/bin/activate
 
 Ejecuta el siguiente comando para instalar todas las librerías necesarias:
 
+   ```bash
 pip install -r requirements.txt
+```
 
 Si no tienes el archivo requirements.txt, puedes instalar las dependencias manualmente:
 
+   ```bash
 pip install streamlit pandas seaborn matplotlib scikit-learn
+```
 
 4. Ejecutar la aplicación:
 
 Después de instalar las dependencias, puedes ejecutar la aplicación Streamlit con:
 
+   ```bash
 streamlit run app.py
+```
 
 5. Abre el navegador y ve a la URL proporcionada por Streamlit (normalmente http://localhost:8501).
 
