@@ -1,0 +1,26 @@
+# Ignorar el entorno virtual
+env/
+
+# Archivos generados por Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configuración del editor de texto
+.vscode/
+.idea/
+
+# Archivos de configuración del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs, bases de datos y otros archivos temporales
+*.log
+*.sqlite3
+*.db
+
+# Archivos grandes o binarios que no deben ser subidos
+*.tar.gz
+*.zip
+*.egg-info/
